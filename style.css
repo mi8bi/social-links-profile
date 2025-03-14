@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+  padding: 24px 24px 24px 32px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 16px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-info > img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.author {
+  margin-top: 32px;
+  font-family: "Inter";
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.location {
+  margin-top: 8px;
+  font-family: "Inter";
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+}
+
+.dev-stack {
+  margin-top: 24px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+}
+
+.buttons {
+  margin-top: 24px;
+  padding-left:0;
+}
+
+.buttons li {
+  list-style: none;
+}
+
+button {
+  width: 100%;
+}
