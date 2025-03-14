@@ -11,6 +11,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -79,9 +80,18 @@ main {
 }
 
 .buttons li {
+  margin-top: 8px;
   list-style: none;
 }
 
 button {
   width: 100%;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 16px;
+  border-radius: 16px;
 }
